@@ -3,6 +3,9 @@ Version: 0.0.0.9000
 Date: 2022-01-08
 Title: Bayesian Information Criterion for Singular Gaussian Mixture Models
 Authors@R: c(person("Mathias", "Drton", role = c("aut")),
+             person("Luca", "Scrucca", role = c("aut", "cre"),
+                    email = "luca.scrucca@unipg.it",
+                    comment = c(ORCID = "0000-0003-3826-0484")),
              person("Radek", "Salac", role = c("aut"))
              )
            
