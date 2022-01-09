@@ -6,7 +6,7 @@
 \title{Singular BIC for Model-Based Clustering}
 
 \description{
-Extension of BIC for parameterized Gaussian mixture models fitted by EM algorithm initialized by model-based hierarchical clustering. This modifief BIC resolves the problematic of singular model selection problems, i.e. problems that involve models with Fisher information matrices that may fail to be invertable.}
+Extension of BIC for parameterized Gaussian mixture models fitted by EM algorithm initialized by model-based hierarchical clustering. This modified BIC resolves the difficulties connected to singular model selection problems, i.e. problems that involve models with Fisher information matrices that may fail to be invertable.}
 
 \usage{
 mclustSBIC(data, G = NULL, modelNames = NULL, 
