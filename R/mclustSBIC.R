@@ -339,9 +339,10 @@ nVarParamsShared <- function (modelName, d, ...)
 #################### RADEK:
 #' @export
 MclustSBICupdate <- function (object, ...)
-  ## object of class 'Mclust'
+  ## object : object of class 'Mclust'
 {
-  SBIC = mclustSBIC(X,x=modBIC$BIC)
+  X = object$data
+  SBIC = mclustSBIC(X,x=object$BIC)
   class(SBIC) = "mclustBIC"
   modSBIC = Mclust(X, x = SBIC)
   return(modSBIC)
